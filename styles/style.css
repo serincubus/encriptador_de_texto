@@ -1,0 +1,19 @@
+.presentacion{
+    display: flex;
+}
+.logo{
+width: 120px;
+height: 48px;
+}
+
+.texto__sin__encriptar{
+    width: 680px;
+    height: 288px;
+    border-color: red;
+}
+
+.texto__encriptado{
+    width: 336px;
+    height: 781px;
+    border-color: blue;
+}
