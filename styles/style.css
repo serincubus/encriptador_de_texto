@@ -4,16 +4,51 @@
 .logo{
 width: 120px;
 height: 48px;
+margin-top: 40px;
+margin-left: 40px;
 }
+
+
 
 .texto__sin__encriptar{
     width: 680px;
     height: 288px;
     border-color: red;
+    margin-top: 168px;
+    margin-left: 80px;
+    margin-right: 0px;
+}
+
+.div__texto__encript{
+    width: 400px;
+    height: 944px;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 40px;
+    border: solid 2px green;
+    border-radius: 32%;
+    justify-content: center;
+    
 }
 
 .texto__encriptado{
     width: 336px;
     height: 781px;
     border-color: blue;
+    margin-top: 72px;
+    margin-left:32px
 }
+
+.botones__encrip__desencrip{
+    flex-direction:row ;
+    margin-left: 200px;
+    margin-top: 429px;
+    gap: 24px;
+
+}
+
+.boton{
+    width: 368px;
+    height: 67px;
+}
+
