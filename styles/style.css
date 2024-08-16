@@ -40,13 +40,19 @@ margin-left: 40px;
     margin-top: 243px; 
 }
 
-.texto__encriptado{
+.mensaje__error__encriptado1{
     width: 336px;
-    height: 122px;
+    height: 58px;
     border-color: blue;
     margin-top: 32px;
     margin-left:32px;
     margin-right: 32px;
+    margin-bottom: 0px;
+}
+
+.mensaje__alerta__solo__minusculas{
+    width: 680px;
+    margin-left: 80px;
 }
 
 .botones__encrip__desencrip{
@@ -67,4 +73,5 @@ margin-left: 40px;
 .boton1{
     background-color: #0a3871;
 }
+
 
