@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 body{
     background-color: #f3f5fc;
 }
@@ -15,8 +17,8 @@ margin-left: 40px;
 
 .texto__sin__encriptar{
     background-color: #f3f5fc;
-    width: 680px;
-    height: 288px;
+    width: 577px;
+    height: 48px;
     border-color: red;
     margin-top: 168px;
     margin-left: 80px;
@@ -51,15 +53,19 @@ margin-left: 40px;
 }
 
 .mensaje__alerta__solo__minusculas{
+    display: flex;
     width: 680px;
     margin-left: 80px;
+    margin-top: 683px;
+    font-family: inter;
+
 }
 
 .botones__encrip__desencrip{
     display: flex;
-    width: 680px;
+    width: 577px;
     margin-left: 80px;
-    margin-top: 429px;
+    margin-top: 34px;
     gap: 24px;
 
 }
