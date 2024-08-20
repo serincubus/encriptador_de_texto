@@ -19,10 +19,13 @@ margin-left: 40px;
     background-color: #f3f5fc;
     width: 577px;
     height: 48px;
-    border-color: red;
     margin-top: 168px;
     margin-left: 80px;
     margin-right: 0px;
+    font-family: inter;
+    font-size: 32px;
+    line-height: 48px;
+    color: #0A3871;
 }
 
 .div__texto__encript{
@@ -51,13 +54,26 @@ margin-left: 40px;
     margin-right: 32px;
     margin-bottom: 0px;
 }
+.logo__group{
+    padding-top: 17px;
+    width: 16px;
+    height: 16px;
+}
+
+.H3__mensaje__alerta_solo__minusculas{
+    margin: 0px;
+    padding: 17px;
+}
 
 .mensaje__alerta__solo__minusculas{
     display: flex;
     width: 680px;
     margin-left: 80px;
-    margin-top: 683px;
+    margin-top: 635px;
     font-family: inter;
+    font-size: 12px;
+    opacity: 80%;
+    gap: 8px;
 
 }
 
@@ -65,7 +81,7 @@ margin-left: 40px;
     display: flex;
     width: 577px;
     margin-left: 80px;
-    margin-top: 34px;
+    margin-top: 16px;
     gap: 24px;
 
 }
@@ -78,6 +94,22 @@ margin-left: 40px;
 
 .boton1{
     background-color: #0a3871;
+    font-family: inter;
+    font-size: 16px;
+    line-height: 19.36px;
+    text-align: center;
+    color: #ffffff;
 }
 
+.boton2{
+    background-color: #D8DFE8;
+    font-family: inter;
+    font-size: 16px;
+    line-height: 19.36px;
+    text-align: center;
+    color:#0A3871
+}
 
+@media (min-widht: 768px) and (max-width: 1023px) {
+    
+}
