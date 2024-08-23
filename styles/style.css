@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+ }
+
 body{
     background-color: #f3f5fc;
 }
@@ -53,6 +60,15 @@ margin-left: 40px;
     margin-left:32px;
     margin-right: 32px;
     margin-bottom: 0px;
+}
+
+.boton__copiar{
+    width: 336px;
+    height: 67px;
+    border-radius: 24px;
+    margin-top: 150px;
+    font-family: inter;
+    font-size: 16px;
 }
 .logo__group{
     padding-top: 17px;
@@ -110,6 +126,12 @@ margin-left: 40px;
     color:#0A3871
 }
 
-@media (min-widht: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+    .logo{
+     width: 31px;
+     height: 48px;
+     margin-top: 73.42px;
+     margin-left: 40px;
+    }
     
 }
