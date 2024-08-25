@@ -106,6 +106,7 @@ margin-left: 40px;
 
 .muñeco{
     margin-top: 243px; 
+    
 }
 
 .mensaje__error__encriptado1{
@@ -116,6 +117,7 @@ margin-left: 40px;
     margin-left:32px;
     margin-right: 32px;
     margin-bottom: 0px;
+    
 }
 
 .h2__mensaje__error{
@@ -124,6 +126,7 @@ margin-left: 40px;
     font-size: 24px;
     line-height: 28.8px;
     text-align: center;
+    
 }
 
 .p__mensaje__error{
@@ -132,16 +135,28 @@ margin-left: 40px;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+    
 }
+.texto__respuesta__cifrada{
+    width:336px;
+    height: 781px;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
 
+    display: none;
+}
 .boton__copiar{
     width: 336px;
     height: 67px;
     border-radius: 24px;
     border: 1px solid #0a3871;
-    margin-top: 150px;
     font-family: inter;
     font-size: 16px;
+    margin-left: 32px;
+    /*margin-top: 700px;*/
+    display: none;
 }
 
 
@@ -232,7 +247,7 @@ margin-left: 40px;
         flex-direction: column;
         background-color: #ffffff;
         width: 688px;
-        height: 133px;
+        height: 343px;
         gap: 16px;
         margin-top: 40px;
         margin-left: 40px;
@@ -251,6 +266,7 @@ margin-left: 40px;
         margin-left:32px;
         margin-right: 32px;
         margin-bottom: 0px;
+        
     }
 
     .h2__mensaje__error{
@@ -259,6 +275,8 @@ margin-left: 40px;
         font-size: 24px;
         line-height: 28.8px;
         text-align: center;
+        
+
     }
     
     .p__mensaje__error{
@@ -267,9 +285,23 @@ margin-left: 40px;
         font-size: 16px;
         line-height: 24px;
         text-align: center;
+        
+    }
+    
+    .texto__respuesta__cifrada{
+    width:624px;
+    height: 180px;
+    display: none;
     }
 
     .boton__copiar{
+        width: 624px;
+        height: 67px;
+        border-radius: 24px;
+        border: 1px solid #0a3871;
+        font-family: inter;
+        font-size: 16px;
+        margin-left: 32px;
         display: none;                
                                
     }
@@ -364,8 +396,8 @@ margin-left: 40px;
         display: flex;
         flex-direction: column;
         background-color: #ffffff;
-        width: 327px;
-        height: 186px;
+        width: 343px;
+        height: 595px;
         gap: 16px;
         margin-top: 40px;
         margin-left: 24px;
@@ -383,6 +415,7 @@ margin-left: 40px;
         margin-left:32px;
         margin-right: 32px;
         margin-bottom: 0px;
+        
     }
 
     .h2__mensaje__error{
@@ -393,6 +426,7 @@ margin-left: 40px;
         font-size: 24px;
         line-height: 28.8px;
         
+        
     }
     
     .p__mensaje__error{
@@ -402,10 +436,26 @@ margin-left: 40px;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
-        
+              
     }
 
+    .texto__respuesta__cifrada{
+        display: flex;
+        flex-direction: column;
+        width:279px;
+        height: 432px;
+        margin-left: 32px;
+        display: none;
+        }
+
     .boton__copiar{
+        width: 279px;
+        height: 67px;
+        border-radius: 24px;
+        border: 1px solid #0a3871;
+        font-family: inter;
+        font-size: 16px;
+        margin-left: 32px;
         display: none;                
                                
     }

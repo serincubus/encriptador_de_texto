@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de texto</title>
+    <script src="/app.js"></script>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body >
@@ -13,27 +14,26 @@
         </div>
         <div class="div__casillero__texto__y__botones">
             
-                <input type="text" class="texto__sin__encriptar" placeholder="Ingrese el texto aqui">
+                <input type="text" id="inputTexto" class="texto__sin__encriptar" placeholder="Ingrese el texto aqui">
                 <div class="mensaje__alerta__solo__minusculas">
                     <img src="./assets/Group.png" alt="simbolo de admiracion" class="logo__group">
                     <h3 class="H3__mensaje__alerta_solo__minusculas">solo letras minusculas y sin acento</h3>
                 </div>
              
             <div class="botones__encrip__desencrip">
-                <button class="boton boton1" >Encriptar</button>
-                <button class="boton boton2">Desencriptar</button>
+                <button class="boton boton1" onclick="encriptar()" >Encriptar</button>
+                <button class="boton boton2" onclick="desencriptar()">Desencriptar</button>
             </div>
         </div>
         <div class="div__texto__encript">
-            <img src="/assets//Muñeco.png" alt="imagen error mensaje no encontrado" class="muñeco">
+            <img id="imgMuñeco" src="/assets//Muñeco.png" alt="imagen error mensaje no encontrado" class="muñeco">
+            <textarea id="texto__cifrado" value=textoEncript rows="8" class="texto__respuesta__cifrada"></textarea>
             <div class="mensaje__error__encriptado1">
-                <h2 class="h2__mensaje__error">Ningún mensaje fue encriptado</h2>    
-            
-             
-                <p class="p__mensaje__error mensaje__error__encriptado2">Ingrese el texto que desees encriptar o desencriptar</p>
+                <h2 id="texto__error" class="h2__mensaje__error">Ningún mensaje fue encriptado</h2>    
+                <p id="texto__error2" mensaje__error__encriptado2">Ingrese el texto que desees encriptar o desencriptar</p>
 
             </div>
-         <button class="boton__copiar">Copiar</button>   
+         <button id="copiar" class="boton__copiar">Copiar</button>   
         </div>    
         
 </main>
