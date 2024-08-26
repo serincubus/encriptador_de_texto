@@ -98,7 +98,6 @@ margin-left: 40px;
     margin-top: 40px;
     margin-left: 60px;
     margin-right: 40px;
-    /*border: solid 2px green;*/
     border-radius: 32px;
     text-align: center;
     
@@ -111,13 +110,13 @@ margin-left: 40px;
 
 .mensaje__error__encriptado1{
     width: 336px;
-    height: 58px;
+    height: 122px;
     border-color: blue;
     margin-top: 32px;
     margin-left:32px;
     margin-right: 32px;
     margin-bottom: 0px;
-    
+   
 }
 
 .h2__mensaje__error{
@@ -139,13 +138,14 @@ margin-left: 40px;
 }
 .texto__respuesta__cifrada{
     width:336px;
-    height: 781px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-family: inter;
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
-
-    display: none;
+    
 }
 .boton__copiar{
     width: 336px;
@@ -155,12 +155,20 @@ margin-left: 40px;
     font-family: inter;
     font-size: 16px;
     margin-left: 32px;
-    /*margin-top: 700px;*/
+    margin-top: 457px;
     display: none;
 }
 
+.button {  
+    transition: transform 0.1s ease;  
+}  
+
+.button:active {  
+    transform: scale(0.95);  
+}
 
 }
+
 
 /* tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -242,6 +250,26 @@ margin-left: 40px;
     .muñeco{
         display: none; 
     }
+    .texto__respuesta__cifrada{
+        width:688px;
+        height: 150px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: inter;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+        .boton__copiar{
+            width: 688px;
+            height: 67px;
+            border-radius: 24px;
+            border: 1px solid #0a3871;
+            font-family: inter;
+            font-size: 16px;
+            display: none;
+        }
 
     .div__texto__encript{
         flex-direction: column;
@@ -252,7 +280,6 @@ margin-left: 40px;
         margin-top: 40px;
         margin-left: 40px;
         margin-right: 40px;
-        /*border: solid 2px green;*/
         border-radius: 32px;
         text-align: center;
         
@@ -262,7 +289,6 @@ margin-left: 40px;
         width: 624px;
         height: 29px;
         border-color: blue;
-        margin-top: 32px;
         margin-left:32px;
         margin-right: 32px;
         margin-bottom: 0px;
@@ -287,25 +313,17 @@ margin-left: 40px;
         text-align: center;
         
     }
+    .button {  
+        transition: transform 0.1s ease;  
+    }  
     
-    .texto__respuesta__cifrada{
-    width:624px;
-    height: 180px;
-    display: none;
+    .button:active {  
+        transform: scale(0.95);  
     }
-
-    .boton__copiar{
-        width: 624px;
-        height: 67px;
-        border-radius: 24px;
-        border: 1px solid #0a3871;
-        font-family: inter;
-        font-size: 16px;
-        margin-left: 32px;
-        display: none;                
-                               
-    }
+    
+    
 }
+
 /* mobile*/
 
 @media (min-width:375px) and (max-width:767px){
@@ -397,7 +415,7 @@ margin-left: 40px;
         flex-direction: column;
         background-color: #ffffff;
         width: 343px;
-        height: 595px;
+        height: 300px;
         gap: 16px;
         margin-top: 40px;
         margin-left: 24px;
@@ -445,7 +463,7 @@ margin-left: 40px;
         width:279px;
         height: 432px;
         margin-left: 32px;
-        display: none;
+       
         }
 
     .boton__copiar{
@@ -456,6 +474,7 @@ margin-left: 40px;
         font-family: inter;
         font-size: 16px;
         margin-left: 32px;
+        /*text-align: center;*/
         display: none;                
                                
     }

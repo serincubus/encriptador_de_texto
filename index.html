@@ -21,19 +21,19 @@
                 </div>
              
             <div class="botones__encrip__desencrip">
-                <button class="boton boton1" onclick="encriptar()" >Encriptar</button>
-                <button class="boton boton2" onclick="desencriptar()">Desencriptar</button>
+                <button class="boton boton1 button" onclick="encriptar()" >Encriptar</button>
+                <button class="boton boton2 button" onclick="desencriptar()">Desencriptar</button>
             </div>
         </div>
         <div class="div__texto__encript">
             <img id="imgMuñeco" src="/assets//Muñeco.png" alt="imagen error mensaje no encontrado" class="muñeco">
-            <textarea id="texto__cifrado" value=textoEncript rows="8" class="texto__respuesta__cifrada"></textarea>
-            <div class="mensaje__error__encriptado1">
+            <textarea id="texto__cifrado" rows="8" cols="80" class="texto__respuesta__cifrada"></textarea>
+            <div id="mensajeError1" class="mensaje__error__encriptado1">
                 <h2 id="texto__error" class="h2__mensaje__error">Ningún mensaje fue encriptado</h2>    
                 <p id="texto__error2" mensaje__error__encriptado2">Ingrese el texto que desees encriptar o desencriptar</p>
 
             </div>
-         <button id="copiar" class="boton__copiar">Copiar</button>   
+         <button id="copiar" class="boton__copiar button" onclick="copiar()">Copiar</button>   
         </div>    
         
 </main>
